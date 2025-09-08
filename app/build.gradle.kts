@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.google.gms.google.services)
     alias(libs.plugins.kotlinx.serialization)
+    alias(libs.plugins.google.android.libraries.mapsplatform.secrets.gradle.plugin)
 }
 
 android {
@@ -75,7 +76,9 @@ dependencies {
     implementation(libs.androidx.datastore.preferences)
 
     //Firebase
+    implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.auth)
+    implementation(libs.play.services.auth)
 
     //Test & Debug
     testImplementation(libs.junit)
