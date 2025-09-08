@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "334453922289",
+    "project_id": "xolotl-d95b2",
+    "storage_bucket": "xolotl-d95b2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334453922289:android:97feae21e62780929d8c50",
+        "android_client_info": {
+          "package_name": "org.christophertwo.xlotl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334453922289-1e2nho0ka08u1m1ap7vibk9omm7i449g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.christophertwo.xlotl",
+            "certificate_hash": "4478362e7d05e89b853295c1f983125cda04e627"
+          }
+        },
+        {
+          "client_id": "334453922289-0ob8m7j8iaq9em4hladpfa9819gdakis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATMP2vcQn1CrDK-UBvzPD04idW1HeQIX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334453922289-0ob8m7j8iaq9em4hladpfa9819gdakis.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
